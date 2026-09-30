@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
     box-sizing: border-box;
 }
@@ -116,4 +117,124 @@ img {
 
 .escuro hr {
     border-top-color: #444;
+=======
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 30px;
+    background-color: #f1f3f6;
+    color: #222;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 5px;
+}
+
+h2 {
+    margin-top: 30px;
+}
+
+p {
+    font-size: 18px;
+}
+
+button {
+    padding: 12px 20px;
+    margin: 6px;
+    border: none;
+    border-radius: 8px;
+    background-color: #e67e22;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ca6413;
+}
+
+button:disabled {
+    background-color: #aaa;
+    cursor: not-allowed;
+}
+
+input {
+    padding: 12px;
+    width: 250px;
+    border: 1px solid #bbb;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.placar {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.time {
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    width: 200px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.time h3 {
+    font-size: 22px;
+    margin-top: 0;
+}
+
+.time p {
+    font-size: 55px;
+    font-weight: bold;
+    margin: 15px;
+    color: #e67e22;
+}
+
+hr {
+    margin: 35px 0;
+    border: none;
+    border-top: 1px solid #ccc;
+}
+
+img {
+    display: block;
+    margin: 15px auto;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.destaque {
+    font-size: 25px;
+    font-weight: bold;
+    color: #e67e22;
+}
+
+.escuro {
+    background-color: #171717;
+    color: white;
+}
+
+.escuro .time {
+    background-color: #252525;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.08);
+}
+
+.escuro input {
+    background-color: #333;
+    color: white;
+    border-color: #555;
+}
+
+.escuro hr {
+    border-top-color: #444;
+>>>>>>> 2385d8c (first commit)
 }
